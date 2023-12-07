@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://gammaltd.sharepoint.com/sites/dev/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "3c390dbd-8d43-4640-a645-1d88664a40b4",
+        "PageType": 8,
+        "RootFolder": "/sites/dev/Lists/MyList",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "firstCustomizer_NewForm": {
+      "pageUrl": "https://gammaltd.sharepoint.com/sites/dev/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "3c390dbd-8d43-4640-a645-1d88664a40b4",
+        "PageType": 8,
+        "RootFolder": "/sites/dev/Lists/MyList",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "firstCustomizer_EditForm": {
+      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "3c390dbd-8d43-4640-a645-1d88664a40b4",
+        "PageType": 6,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "firstCustomizer_ViewForm": {
+      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "3c390dbd-8d43-4640-a645-1d88664a40b4",
+        "PageType": 4,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
